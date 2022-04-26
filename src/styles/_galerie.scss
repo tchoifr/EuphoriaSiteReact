@@ -1,0 +1,63 @@
+
+.containerCarousel{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+.carouselImg{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     
+   
+
+  
+  
+}
+h2 {
+    font-family: 'Mr Dafoe';
+    margin: 0;
+    font-size: 5.5em;
+    margin-top: 1em;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+    transform: rotate(-7deg);
+    margin-bottom: 50px;
+  }
+    
+   .carousel.carousel-slider .control-arrow{
+    height: 50px;
+   }
+     img{
+        width: 50%;
+        height: 600px;
+        object-fit: contain;
+    }
+
+}
+
+
+@media screen and (min-device-width: 767px) and (max-device-width: 1023px){
+    .carousel{
+        width: 80% !important;
+    }
+    h2{
+        font-size: 3em ;
+       
+    }
+}
+@media screen and (max-width: 766px) {
+  .carousel {
+    width: 100% !important;
+}
+  img{
+      height: 325px !important;
+  }
+
+  h2{
+    font-size: 2.5em ;
+   
+}
+}

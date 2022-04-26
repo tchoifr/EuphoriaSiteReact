@@ -1,0 +1,42 @@
+.footerRs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin-top: 55px;
+    bottom: 0 !important;
+    background: linear-gradient(
+        -45deg
+        , #682f2f, #3c1b1b, #4e0000, #27016367);
+    a{
+        margin: 15px;
+        font-size: 2em;
+        color: white;
+    }
+    .textFooter{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    @media screen and (min-width: 2560px){
+                    
+       height: 450px;
+       
+        p{
+          font-size: 1.8em;
+        }
+        a{
+            font-size: 4em;
+        }
+    
+        }
+        @media screen and (max-width: 425px){
+                    
+           height: 140px;
+          p{
+              font-size: 0.8em;
+          }
+         
+             }
+}

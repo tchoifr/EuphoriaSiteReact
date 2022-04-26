@@ -1,0 +1,26 @@
+
+@import "./_animation.scss";
+@import"./_navigation.scss";
+@import"./_imageFond.scss";
+@import"./_blocChef.scss";
+@import"./_footerRs.scss";
+@import"./_cardMenu.scss";
+@import"./_formulaire.scss";
+@import"./galerie.scss";
+
+*{
+
+    margin:0;
+    
+    padding:0;
+    
+    } 
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    background-color: #401b1b;
+   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif '';
+}

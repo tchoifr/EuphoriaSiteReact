@@ -3,7 +3,7 @@ import React from 'react'
 function Presentation() {
     return (
         <div className='imageChef' data-aos="zoom-in">
-             <img className='img' src='/img/fond/calendrier.jpg' alt='calendrier' />
+             <img className='img'  src='/img/equipe/calendrier.jpg' alt='test' />
             <h1>L'équipe</h1>
             <img className='img' src='/img/equipe/chef.webp' alt='test' />
             <h2>Océane ATTALI</h2>
